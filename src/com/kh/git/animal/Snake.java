@@ -8,4 +8,8 @@ public class Snake {
   public void bite(){
     System.out.println("Snake bites..");
   }
+  public void eat(){
+    System.out.println("Snake eats..");
+  }
+  
 }
