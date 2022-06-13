@@ -5,9 +5,14 @@ public class HelloGit {
 		System.out.println("HelloGit!!!");
 		HelloGit hg1 = new HelloGit();
 		hg1.dummy();
+		hg1.addTwo(1, 3);
 	}
 	
 	public void dummy() {
 		System.out.println("더어어어어어어어어어어어어어어어미");
+	}
+	
+	public int addTwo(int a, int b) {
+		return a + b;
 	}
 }
