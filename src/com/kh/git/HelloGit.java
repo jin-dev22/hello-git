@@ -6,6 +6,7 @@ public class HelloGit {
 		HelloGit hg1 = new HelloGit();
 		hg1.dummy();
 		hg1.addTwo(1, 3);
+		hg1.addTwo(3, -5);
 	}
 	
 	public void dummy() {
